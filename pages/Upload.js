@@ -18,7 +18,7 @@ export default class Upload extends React.Component {
         this.setTankNumbers = this.setTankNumbers.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-
+    
     setTankNumbers(e) {
         e.preventDefault()
         const file_keys = Object.keys(this.state.files)
